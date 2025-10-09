@@ -25,8 +25,6 @@ function App() {
   }, [apiKey]);
 
   if (error) return <div style={{ color: 'red', fontWeight: 'bold', fontSize: '1.5rem', textAlign: 'center', marginTop: '2rem' }}>{error}</div>;
-
-  // Vibrant gradient background style for the whole page
   const backgroundStyle = {
     minHeight: '100vh',
     minWidth: '100vw',
